@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="listArray">
+        <item>Rápida</item>
+        <item>Normal</item>
+        <item>Lenta</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="listTextsizeEntries">
+        <item>Pequeño</item>
+        <item>Normal</item>
+        <item>Grande</item>
+    </string-array>
+
+    <string-array name="listDiccionarioEntries">
+        <item>Oxford</item>
+        <item>TheFreeDictionary</item>
+        <item>Wikcionario</item>
+        <item>WordReference</item>
+    </string-array>
+
+    <string-array name="listDicionarioValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

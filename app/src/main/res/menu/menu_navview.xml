@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/navview_header_navigation">
+        <menu>
+            <item android:id="@+id/menu_prev"
+                android:title="@string/menu_prev"
+                android:icon="@drawable/ic_fast_rewind_white_24dp" />
+
+            <item android:id="@+id/menu_books"
+                android:title="@string/menu_estanteria"
+                android:icon="@drawable/ic_library_books_white_24dp" />
+
+            <item android:id="@+id/menu_chapters"
+                android:title="@string/menu_capitulos"
+                android:icon="@drawable/ic_format_list_numbered_white_24dp" />
+
+            <item android:id="@+id/menu_next"
+                android:title="@string/menu_next"
+                android:icon="@drawable/ic_fast_forward_white_24dp" />
+        </menu>
+    </item>
+
+    <item android:title="@string/navview_header_bookmark">
+        <menu>
+            <item android:id="@+id/menu_add_bookmark"
+                android:title="@string/menu_add_bookmark"
+                android:icon="@drawable/ic_event_available_white_24dp" />
+
+            <item android:id="@+id/menu_goto_bookmark"
+                android:title="@string/menu_goto_bookmark"
+                android:icon="@drawable/ic_near_me_white_24dp" />
+
+            <item android:id="@+id/menu_clear_bookmark"
+                android:title="@string/menu_clear_bookmark"
+                android:icon="@drawable/ic_event_busy_white_24dp" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/menu_settings"
+        android:title="@string/menu_setting"
+        android:icon="@drawable/ic_settings_white_24dp" />
+
+</menu>

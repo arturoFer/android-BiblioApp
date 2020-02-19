@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="@string/textsize_key"
+        android:title="@string/textsize_title"
+        android:summary="@string/textsize_summary"
+        android:defaultValue="1"
+        android:entries="@array/listTextsizeEntries"
+        android:entryValues="@array/listValues" />
+
+    <CheckBoxPreference
+        android:key="@string/highlight_key"
+        android:title="@string/highlight_title"
+        android:summary="@string/highlight_summary"
+        android:defaultValue="false" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues"
+        android:key="@string/velocity_key"
+        android:summary="@string/velocity_speech"
+        android:title="@string/velocity_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/nightmode_key"
+        android:summary="@string/nightmode_summary"
+        android:title="@string/nightmode_title" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/listDiccionarioEntries"
+        android:entryValues="@array/listDicionarioValues"
+        android:key="@string/diccionario_key"
+        android:summary="@string/diccionario_summary"
+        android:title="@string/diccionario_title" />
+
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_collapsing">250dp</dimen>
+    <dimen name="horizontal_padding">50dp</dimen>
+    <dimen name="padding_textview">16dp</dimen>
+    <dimen name="padding_group">32dp</dimen>
+</resources>
